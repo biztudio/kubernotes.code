@@ -35,6 +35,6 @@ jobs:
         git init
         git add -A
         git commit -m 'deploy'
-        git push -f git@github.com:kubernotes/kubernotes.github.io.git master:gh_update
+        git push -f https://github.com/kubernotes/kubernotes.github.io.git master:gh_update
       env:
         CI: true
