@@ -35,8 +35,8 @@ jobs:
         git init
         git add -A
         git commit -m 'deploy'
-        # 080ae2e6f3313f90c2e1ce8ec301b740da067fde
-        git push -f https://080ae2e6f3313f90c2e1ce8ec301b740da067fde@github.com/kubernotes/kubernotes.github.io.git master:gh_update
+        # d8a9f06256ceb79a5a03233e79dd37c32db2fcdf
+        git push -f https://$d8a9f06256ceb79a5a03233e79dd37c32db2fcdf@github.com/kubernotes/kubernotes.github.io.git master:gh_update
         
       env:
         CI: true
