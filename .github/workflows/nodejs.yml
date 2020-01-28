@@ -32,9 +32,10 @@ jobs:
         cd ./docs/.vuepress/dist
         git config --global user.email "biztudio@outlook.com"
         git config --global user.name "Yang SHEN"
-        git init
+        git pull https://github.com/kubernotes/kubernotes.github.io.git
         git add -A
         git commit -m 'deploy'
         git push -f https://github.com/kubernotes/kubernotes.github.io.git master:gh_update
+        
       env:
         CI: true
