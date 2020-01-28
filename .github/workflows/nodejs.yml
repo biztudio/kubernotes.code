@@ -25,7 +25,9 @@ jobs:
         pwd
         ls
         cd ./src/
-        npm install
-        npm run docs:build --if-present
+        npm -v
+        yarn -v
+        yarn
+        yarn docs:build --if-present
       env:
         CI: true
