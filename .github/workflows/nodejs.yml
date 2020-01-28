@@ -23,6 +23,6 @@ jobs:
     - name: npm install, build, and test
       run: |
         pwd
-        
+        ls
       env:
         CI: true
