@@ -22,8 +22,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build, and test
       run: |
-        cd ../../src/
-        npm install
-        npm run docs:build --if-present
+        pwd
+        
       env:
         CI: true
