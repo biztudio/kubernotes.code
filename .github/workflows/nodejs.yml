@@ -24,5 +24,8 @@ jobs:
       run: |
         pwd
         ls
+        cd ./src/
+        npm install
+        npm run docs:build --if-present
       env:
         CI: true
