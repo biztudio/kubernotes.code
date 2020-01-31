@@ -1,3 +1,8 @@
+---
+title: 学习笔记列表
+lang: zh-CN
+---
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |

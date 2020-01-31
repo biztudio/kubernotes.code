@@ -6,9 +6,12 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:publish": "sh ./deploy.sh"
   },
   "devDependencies": {
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
     "vuepress": "^1.2.0"
   }
 }
