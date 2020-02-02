@@ -4,6 +4,7 @@ title: 首页
 lang: zh-CN
 ---
 
+[Kubernetes 交互式教程](https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive/)
 
 {{ 1 + 1 }}
 
