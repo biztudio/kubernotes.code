@@ -13,5 +13,8 @@
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "vuepress": "^1.2.0"
+  },
+  "dependencies": {
+    "vue-impress": "^0.0.7"
   }
 }

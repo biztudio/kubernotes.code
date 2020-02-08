@@ -1,8 +1,12 @@
 module.exports = {
-    title: "Yang's Kubernotes",
+    title: "姑苏小沈的 Kubernetes 笔记",
     description: 'Learn kubernetes with notes. Kubernetes is cool.',
 
-    locales: {
+    head: [
+      ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `https://www.kubernetes.org.cn/img/2018/07/cropped-con999-192x192.png` }]
+    ],
+
+   /*  locales: {
       // 键名是该语言所属的子路径
       // 作为特例，默认语言可以使用 '/' 作为其路径。
       '/': {
@@ -15,13 +19,13 @@ module.exports = {
         title: 'Yang\'s Kubernotes',
         description: 'Vue 驱动的静态网站生成器'
       }
-    },
+    }, */
 
     themeConfig: {
       sidebar: [
         '/',
-        '/page-a',
-        ['/page-b', 'Explicit link text']
+        ['/presentation/', '演示'],
+        ['/articles/', '笔记']
       ]
     },
 
